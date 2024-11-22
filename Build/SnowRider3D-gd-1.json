@@ -4,14 +4,14 @@
     "dataUrl": "SnowRider3D-gd-1.data.unityweb",
     "wasmCodeUrl": "SnowRider3D-gd-1.wasm.code.unityweb",
     "wasmFrameworkUrl": "SnowRider3D-gd-1.wasm.framework.unityweb",
-    "TOTAL_MEMORY": "134217728",  // Reduced to 128 MB for smaller memory footprint (adjust as necessary)
-    "graphicsAPI": ["WebGL 2.0"],  // Prioritize WebGL 2.0, as it provides better performance
+    "TOTAL_MEMORY": "134217728",
+    "graphicsAPI": ["WebGL 2.0"],
     "webglContextAttributes": {
       "preserveDrawingBuffer": false
     },
-    "splashScreenStyle": "Dark",  // Can be customized further for branding, or removed if not needed
+    "splashScreenStyle": "Dark",
     "backgroundColor": "#231F20",
-    "showUnityVersion": false,  // Disabled for production to improve load times and reduce overhead
-    "useWorker": true  // Keep enabled for multi-threading unless it's significantly increasing file size or load time
-  }
+    "showUnityVersion": false,
+    "useWorker": true
+}
   
