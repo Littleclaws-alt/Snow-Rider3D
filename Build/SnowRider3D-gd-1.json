@@ -4,7 +4,7 @@
     "dataUrl": "SnowRider3D-gd-1.data.unityweb",
     "wasmCodeUrl": "SnowRider3D-gd-1.wasm.code.unityweb",
     "wasmFrameworkUrl": "SnowRider3D-gd-1.wasm.framework.unityweb",
-    "TOTAL_MEMORY": 134217728,  // Reduced to 128 MB for smaller memory footprint (adjust as necessary)
+    "TOTAL_MEMORY": "134217728",  // Reduced to 128 MB for smaller memory footprint (adjust as necessary)
     "graphicsAPI": ["WebGL 2.0"],  // Prioritize WebGL 2.0, as it provides better performance
     "webglContextAttributes": {
       "preserveDrawingBuffer": false
